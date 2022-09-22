@@ -1,0 +1,59 @@
+
+$navbar-toggler-bg: $mademoiselle-logo-color;
+
+header{
+    
+    .navbar-brand{
+        width: 50%;
+        max-width: 200px;
+        padding: 5px 0;
+    }//.navbar-brand end
+    
+    .navbar-toggler{
+        
+        span{
+            display: block;
+            width: 30px;
+            height: 2px;
+            margin-bottom: 5px;
+            background-color: $navbar-toggler-bg;
+            
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+    }//.navbar-toggler end
+    
+    .navbar-nav{
+        
+        a{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            font-weight: $font-weight-normal;
+            text-transform: uppercase;
+            padding: 10px;
+            text-align: center;
+            
+            &:hover, .active{
+                border-bottom: 2px solid $mademoiselle-logo-color;
+                
+            }
+        }
+    }// .navbar-nav end
+}//header end
+
+@media(min-width:768px){
+    header{
+                
+        .navbar-brand{
+            padding: 20px 0;
+        }
+        
+        .navbar-nav{
+            
+            li{
+                margin-left: 51px;
+            }
+        }
+    }
+}
