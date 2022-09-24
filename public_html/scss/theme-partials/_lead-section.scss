@@ -1,0 +1,33 @@
+
+$lead-heading-font: $bodoni;
+$lead-heading-color: $white;
+
+.lead-section{
+    padding: 50px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    h1{
+        font-family: $bodoni;
+        color: $lead-heading-color;
+        width: 100%;
+        display: inline-block;
+        line-height: 8.4rem;
+
+    }
+}
+
+@media(min-width:768px){
+    .lead-section{
+            padding: 218px 0 269px;
+
+            h1{
+            max-width: 704px;
+            letter-spacing: 20px;
+            font-size: 6rem;
+
+
+        }
+    }
+}
