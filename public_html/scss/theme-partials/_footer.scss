@@ -1,0 +1,22 @@
+
+$social-color: #ECD9D9;
+
+footer{
+    padding: 47px 0 25px;
+
+    .social{
+        a{
+            color: $social-color;
+            font-size: 2rem;
+        }
+    }
+
+    .copyright{
+        font-weight: $font-weight-normal;
+        font-size: 1.2rem;
+        a{
+            color: $gray-900;
+
+        }
+    }
+}

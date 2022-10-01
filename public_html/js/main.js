@@ -20,4 +20,15 @@ $(document).ready(function () {
         animation();
     });
     animation();
+
+    // team slider
+
+    if ($('.team-slider').length > 0) {
+        $(".team-slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            items: 1,
+            margin: 0
+        });
+    }
 });

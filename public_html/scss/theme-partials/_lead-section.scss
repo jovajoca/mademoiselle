@@ -1,5 +1,4 @@
 
-$lead-heading-font: $bodoni;
 $lead-heading-color: $white;
 
 .lead-section{
@@ -9,9 +8,9 @@ $lead-heading-color: $white;
     background-position: center center;
 
     h1{
-        font-family: $bodoni;
         color: $lead-heading-color;
         width: 100%;
+        font-size: 3*$font-size-base;
         display: inline-block;
         line-height: 8.4rem;
 
@@ -26,7 +25,6 @@ $lead-heading-color: $white;
             max-width: 704px;
             letter-spacing: 20px;
             font-size: 6rem;
-
 
         }
     }

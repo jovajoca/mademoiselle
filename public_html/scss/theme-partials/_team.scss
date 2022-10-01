@@ -1,0 +1,25 @@
+
+$border-color: #ECD9D9;
+
+.team-slider{
+    border: 1px solid $border-color;
+    padding: 54px 10px;
+    list-style: none;
+    
+    .team-member{
+        .member-name{
+            font-weight: $font-weight-normal;
+            font-size: 3rem;
+            
+            a{
+                color: $gray-900;
+            }
+        }
+    }
+}
+
+@media(min-width:776px){
+    .team{
+        margin-bottom: 67px;
+    }
+}

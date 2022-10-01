@@ -33,6 +33,7 @@ header{
             text-transform: uppercase;
             padding: 10px;
             text-align: center;
+            border-bottom: 2px solid transparent;
             
             &:hover, .active{
                 border-bottom: 2px solid $mademoiselle-logo-color;

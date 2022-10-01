@@ -1,0 +1,44 @@
+
+.trends{
+    padding: 50px 0;
+
+    .trends-content{
+        background-color: $white;
+        padding: 10px 10px 0;
+        width: 90%;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .trends-date{
+            font-family: $bodoni;
+            font-style: italic;
+            line-height: 17px;
+            letter-spacing: 0.1rem;
+        }
+
+        .trends-text{
+            line-height: 2.4rem;
+            height: 2*2.4rem;
+            overflow: hidden;
+            color: $gray-900;
+            font-weight: $font-weight-normal;
+        }
+    }
+}
+
+@media(min-width:576px){
+    .trends{
+        .trends-content{
+            transform: translate(-50%, 50%);
+            padding: 22px 19px 57px;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .trends{
+        padding:75px 0 137px;
+    }
+
+}

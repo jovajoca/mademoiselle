@@ -163,7 +163,7 @@ a {
 
 a:hover {
   color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -370,15 +370,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 h2, .h2 {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
 }
 
 h3, .h3 {
-  font-size: 2.8rem;
+  font-size: 3rem;
 }
 
 h4, .h4 {
@@ -2763,11 +2763,11 @@ fieldset:disabled a.btn {
 
 .btn-link:hover {
   color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
   box-shadow: none;
 }
 
@@ -9581,6 +9581,29 @@ body {
   font-weight: 300;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bodoni Book";
+}
+
+h4 + span {
+  display: block;
+  height: 1px;
+  width: 74px;
+  background-color: transparent;
+  margin-bottom: 40px;
+}
+
+h4 {
+  line-height: 4.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+h4:hover + span {
+  background-color: #ECD9D9;
+}
+
 header .navbar-brand {
   width: 50%;
   max-width: 200px;
@@ -9606,6 +9629,7 @@ header .navbar-nav a {
   text-transform: uppercase;
   padding: 10px;
   text-align: center;
+  border-bottom: 2px solid transparent;
 }
 
 header .navbar-nav a:hover, header .navbar-nav a .active {
@@ -9629,9 +9653,9 @@ header .navbar-nav a:hover, header .navbar-nav a .active {
 }
 
 .lead-section h1 {
-  font-family: "Bodoni Book";
   color: #fff;
   width: 100%;
+  font-size: 4.8rem;
   display: inline-block;
   line-height: 8.4rem;
 }
@@ -9645,6 +9669,133 @@ header .navbar-nav a:hover, header .navbar-nav a .active {
     letter-spacing: 20px;
     font-size: 6rem;
   }
+}
+
+.trends {
+  padding: 50px 0;
+}
+
+.trends .trends-content {
+  background-color: #fff;
+  padding: 10px 10px 0;
+  width: 90%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.trends .trends-content .trends-date {
+  font-family: "Bodoni Book";
+  font-style: italic;
+  line-height: 17px;
+  letter-spacing: 0.1rem;
+}
+
+.trends .trends-content .trends-text {
+  line-height: 2.4rem;
+  height: 4.8rem;
+  overflow: hidden;
+  color: #1E1E1E;
+  font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  .trends .trends-content {
+    transform: translate(-50%, 50%);
+    padding: 22px 19px 57px;
+  }
+}
+
+@media (min-width: 768px) {
+  .trends {
+    padding: 75px 0 137px;
+  }
+}
+
+.services .services-item, .services-section .services-item {
+  background-color: #ECD9D9;
+}
+
+.services .services-item .services-description .learn-more, .services-section .services-item .services-description .learn-more {
+  padding: 15px 36px;
+  border: 1px solid #1E1E1E;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
+}
+
+.services .services-item h3, .services-section .services-item h3 {
+  color: #1E1E1E;
+}
+
+.services .services-item:nth-of-type(odd), .services-section .services-item:nth-of-type(odd) {
+  background-color: #F5F5F5;
+}
+
+@media (min-width: 992px) {
+  .services {
+    margin-bottom: 111px !important;
+  }
+  .services .services-description {
+    padding: 143px 95px 0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .services-section {
+    padding: 88px 0 37px !important;
+  }
+  .services-section .services-description {
+    padding: 143px 95px 0 !important;
+  }
+}
+
+.team-slider {
+  border: 1px solid #ECD9D9;
+  padding: 54px 10px;
+  list-style: none;
+}
+
+.team-slider .team-member .member-name {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.team-slider .team-member .member-name a {
+  color: #1E1E1E;
+}
+
+@media (min-width: 776px) {
+  .team {
+    margin-bottom: 67px;
+  }
+}
+
+footer {
+  padding: 47px 0 25px;
+}
+
+footer .social a {
+  color: #ECD9D9;
+  font-size: 2rem;
+}
+
+footer .copyright {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+footer .copyright a {
+  color: #1E1E1E;
+}
+
+.lead-section a {
+  padding: 15px 36px;
+  border: 1px solid #fff;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
+  color: #fff;
 }
 
 /*# sourceMappingURL=theme.css.map */

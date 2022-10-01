@@ -1,0 +1,54 @@
+
+$services-odd-color: #F5F5F5;
+$services-even-color: #ECD9D9;
+$services-text-color: $gray-900;
+
+.services, .services-section{
+        
+    .services-item{
+
+        background-color: $services-even-color;
+
+        .services-description{
+                      
+            .learn-more{
+                padding: 15px 36px;
+                border: 1px solid $services-text-color;
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                letter-spacing: 0.05rem;
+            }
+        }
+
+        h3{
+            color: $services-text-color;
+        }
+
+        &:nth-of-type(odd){
+            background-color: $services-odd-color;
+        }
+    }
+}
+
+
+@media(min-width:992px){
+    .services{
+        margin-bottom: 111px !important;
+        
+        .services-description{
+            padding: 143px 95px 0 !important;
+        }
+    }
+}
+
+// Services page
+
+@media(min-width:992px){
+    .services-section{
+        padding: 88px 0 37px !important;
+        
+        .services-description{
+            padding: 143px 95px 0 !important;
+        }
+    }
+}

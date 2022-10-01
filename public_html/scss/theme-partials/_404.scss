@@ -1,0 +1,11 @@
+
+$error-link-color: $white;
+
+.lead-section a{
+    padding: 15px 36px;
+    border: 1px solid $error-link-color;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.05rem;
+    color: $error-link-color;
+}
