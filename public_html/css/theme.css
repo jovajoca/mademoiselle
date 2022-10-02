@@ -9927,4 +9927,78 @@ footer .copyright a {
   }
 }
 
+.about-section {
+  padding: 30px 0;
+}
+
+.about-section h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.about-section .about-article {
+  font-size: 1.8rem;
+}
+
+.about-section .about-content {
+  background-color: #fff;
+  padding: 10px 10px 0;
+  width: 80%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-section .about-content .about-date {
+  font-family: "Bodoni Book";
+  font-style: italic;
+  line-height: 17px;
+  letter-spacing: 0.1rem;
+}
+
+.about-section .about-content .about-text {
+  line-height: 2.4rem;
+  height: 4.8rem;
+  overflow: hidden;
+  color: #1E1E1E;
+  font-weight: 400;
+}
+
+.about-section .fa-search {
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  right: 20px;
+}
+
+.about-section .search-field {
+  padding: 15px;
+  border: 1px solid #1E1E1E;
+  color: #1E1E1E;
+  font-style: italic;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .about-section .about-content {
+    transform: translate(-50%, 50%);
+    padding: 22px 19px 57px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-section {
+    padding: 91px 0 143px;
+  }
+  .about-item {
+    margin-bottom: 100px !important;
+  }
+  .about-item:last-of-type {
+    margin-bottom: 0px !important;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
