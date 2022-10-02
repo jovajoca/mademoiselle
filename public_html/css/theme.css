@@ -374,15 +374,15 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 3.6rem;
+  font-size: 4.4rem;
 }
 
 h3, .h3 {
-  font-size: 3rem;
+  font-size: 3.6rem;
 }
 
 h4, .h4 {
-  font-size: 2.4rem;
+  font-size: 3rem;
 }
 
 h5, .h5 {
@@ -9747,6 +9747,27 @@ header .navbar-nav a:hover, header .navbar-nav a .active {
   }
   .services-section .services-description {
     padding: 143px 95px 0 !important;
+  }
+}
+
+.service-single-section {
+  padding: 30px 0;
+}
+
+.service-single-section h2 {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 25px;
+  line-height: 5rem;
+}
+
+.service-single-section .service-single-text {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+@media (min-width: 992px) {
+  .service-single-section {
+    padding: 175px 0;
   }
 }
 

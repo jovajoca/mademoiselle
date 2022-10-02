@@ -52,3 +52,26 @@ $services-text-color: $gray-900;
         }
     }
 }
+
+// Service single page
+
+.service-single-section{
+    padding: 30px 0;
+    
+    h2{
+        font-family: $base-font;
+        margin-bottom: 25px;
+        line-height: 5rem;
+    }
+    
+    .service-single-text{
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+}
+
+@media(min-width:992px){
+    .service-single-section{
+        padding: 175px 0;
+    }
+}
