@@ -1,0 +1,56 @@
+
+$btn-border-color: $gray-900;
+$contact-info-bg: #ECD9D9;
+
+.contact-section{
+    padding: 30px 0;
+
+    .form-group{
+        .form-control{
+            background-color: rgba(#253D61, 0.02);
+            border: none;
+            height: 50px !important;
+            line-height: 50px;
+            padding: 0 10px;
+        }
+
+        button{
+            padding: 15px 36px;
+            border: 1px solid $btn-border-color;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            letter-spacing: 0.05rem;
+        }
+
+        .error-msg *{
+            color: $danger;
+            font-size: 1.3rem;
+        }
+        
+        textarea.form-control{
+            height: 150px !important;
+            resize: none;
+        }
+    }
+}
+
+.contact-info{
+    padding: 30px 0;
+    background-color: $contact-info-bg;
+
+    a{
+        text-decoration: none;
+        color: $gray-900;
+    }
+}
+
+@media(min-width: 992px){
+    .contact-section{
+        padding: 110px 0;
+    }
+
+    .contact-info{
+        padding: 60px 0;
+        margin-bottom: 46px;
+    }
+}
