@@ -9869,4 +9869,62 @@ footer .copyright a {
   }
 }
 
+.blog-single-lead {
+  padding: 30px 0;
+}
+
+.blog-single-lead .blog-info {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+.blog-single-lead .blog-info a {
+  font-weight: 700;
+}
+
+.blog-single-lead .blog-info span:first-of-type {
+  width: 1px;
+  height: 14px;
+  background-color: #1E1E1E;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 14px;
+}
+
+.blog-single-lead .blog-info .blog-date {
+  font-style: italic;
+}
+
+.blog-single-lead h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.blog-single-lead a {
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+.blog-text .tags-title {
+  font-family: "Bodoni Book";
+  font-style: italic;
+}
+
+.blog-text .tags {
+  font-family: "Bodoni Book";
+}
+
+.blog-text .tags a {
+  background-color: #F5F5F5;
+}
+
+@media (min-width: 992px) {
+  .blog-single-lead {
+    padding: 165px 0 97px;
+  }
+  .blog-text {
+    margin-bottom: 273px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
