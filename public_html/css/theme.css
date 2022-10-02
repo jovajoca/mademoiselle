@@ -4563,7 +4563,6 @@ input[type="button"].btn-block {
   line-height: 1.25;
   color: #007bff;
   background-color: #fff;
-  border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
@@ -9925,6 +9924,25 @@ footer .copyright a {
   .blog-text {
     margin-bottom: 273px;
   }
+  .blog-item {
+    margin-bottom: 120px !important;
+  }
+}
+
+.pagination .page-item {
+  font-family: "Bodoni Book";
+  font-weight: 400;
+}
+
+.pagination .page-item .page-link {
+  color: #1E1E1E;
+  opacity: 50%;
+}
+
+.pagination .page-item.active .page-link, .pagination .page-item:hover .page-link {
+  background: transparent;
+  color: #1E1E1E;
+  opacity: 100%;
 }
 
 .about-section {
